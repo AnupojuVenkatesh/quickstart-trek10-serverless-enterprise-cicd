@@ -6,7 +6,7 @@
 set -euo pipefail
 
 # Variables:
-source c:aws/quickstart-trek10-serverless-enterprise-cicd/scripts/deployment-variables.sh
+source c:awscode/quickstart-trek10-serverless-enterprise-cicd/scripts/deployment-variables.sh
 
 # Get parameters from stack
 USER=$(aws cloudformation describe-stacks --stack-name ${STACK_NAME} --query "Stacks[*].Outputs[?OutputKey=='IAMUserName'].OutputValue" --output text)
