@@ -8,13 +8,13 @@ set -euo pipefail
 #####################
 # A name for your CloudFormation stack
 # This can optionally be adjusted
-STACK_NAME=cicd-serverless
+STACK_NAME=test1-CICD
 
 ##### ONLY USED BY git-setup.sh
 #####################
 # Relative path to local folder (that does not exist) to store git project 
 # This can optionally be adjusted
-LOCAL_REPO_FOLDER=../sample-project-codecommit
+LOCAL_REPO_FOLDER=c:aws
 
 ##### ONLY USED BY stack-deploy.sh
 #####################
@@ -23,8 +23,8 @@ LOCAL_REPO_FOLDER=../sample-project-codecommit
 S3_BUCKET=MY-UNIQUE-BUCKETNAME
 # AWS Account IDs
 # These must be set to the correct values
-DEV_ACCOUNT_ID=123456789123
-PROD_ACCOUNT_ID=123456789123
+DEV_ACCOUNT_ID=938098148949
+PROD_ACCOUNT_ID=174077336634
 # Prefix for files in S3 bucket. 
 # Default is fine for most scenarios, this can optionally be adjusted
 S3_PREFIX=AWS-CICD-Quickstart
