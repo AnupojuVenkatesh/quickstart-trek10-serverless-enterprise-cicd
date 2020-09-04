@@ -14,7 +14,7 @@ STACK_NAME=test1-CICD
 #####################
 # Relative path to local folder (that does not exist) to store git project 
 # This can optionally be adjusted
-LOCAL_REPO_FOLDER=c:aws/quickstart-trek10-serverless-enterprise-cicd
+LOCAL_REPO_FOLDER=c:awscode/quickstart-trek10-serverless-enterprise-cicd
 
 ##### ONLY USED BY stack-deploy.sh
 #####################
